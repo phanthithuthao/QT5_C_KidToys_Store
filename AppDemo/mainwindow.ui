@@ -1,0 +1,3338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1010</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KidsToysStore</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resource.qrc">
+    <normaloff>:/Resource/logo/logoKT.png</normaloff>:/Resource/logo/logoKT.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1010</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="lbBackGroundKT">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1010</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/img/index0.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCart_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnCart_3 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnCart_3:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>     Cart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnProduct_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnProduct_3 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnProduct_3:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Product</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPayment_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnPayment_3 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnPayment_3:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Payment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuit_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnQuit_3 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnQuit_3:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>  Quit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnHome">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>111</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnHome {
+    background-color: #5c74ff;
+	color: white;
+	border-radius:25px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>      Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>111</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logohome.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuProduct.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuCart.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenupayment.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuquit.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblLogoKT">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>70</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logoKT.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="lbBackground_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1010</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/img/index0.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuit_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnQuit_1 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnQuit_1:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>  Quit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnProduct_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnProduct_1 {
+  background-color: #5c74ff;
+	color: white;
+	border-radius:25px;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>        Product</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCart_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnCart_1 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnCart_1 :hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>     Cart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPayment_1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnPayment_1 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnPayment_1:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Payment</string>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>177</x>
+        <y>80</y>
+        <width>833</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #058789;
+</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>810</width>
+         <height>1022</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>1000</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QPushButton" name="btnAdd1">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>320</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd1 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd1:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd2">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>320</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd2 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd2:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd3">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>320</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd3 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd3:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblProduct1">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>90</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product1.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct2">
+           <property name="geometry">
+            <rect>
+             <x>310</x>
+             <y>90</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 2.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct3">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>90</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 3.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct4">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>390</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 4.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct5">
+           <property name="geometry">
+            <rect>
+             <x>310</x>
+             <y>390</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 5.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct6">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>390</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 6.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct7">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>690</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 7.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct8">
+           <property name="geometry">
+            <rect>
+             <x>310</x>
+             <y>690</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 8.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblproduct9">
+           <property name="geometry">
+            <rect>
+             <x>570</x>
+             <y>690</y>
+             <width>141</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/Resource/product/Product 9.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd6">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>620</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd6 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd6:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd4">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>620</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd4 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd4:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd5">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>620</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd5 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd5:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd7">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>920</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd7 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd7:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd8">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>920</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd8 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd8:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnAdd9">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>920</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnAdd9 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnAdd9:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lblProduct9">
+           <property name="geometry">
+            <rect>
+             <x>560</x>
+             <y>850</y>
+             <width>63</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct1">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>70</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Dragon Robot&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;30$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct2">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>70</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Lego Heartlake&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;99$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct3">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>70</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Barbie Myra&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;20$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct6">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>370</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Dark Zed Ninja &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;40$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct5">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>370</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Lego Spacecraft &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;20$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct4">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>370</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Robot Bruno&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;40S&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct7">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>670</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Moto Ducati Model &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;60$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct8">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>670</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Shark Teeth Model&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt;20$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="txtProduct9">
+           <property name="geometry">
+            <rect>
+             <x>520</x>
+             <y>670</y>
+             <width>220</width>
+             <height>230</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:#6fcb9f;
+border-radius:15px;</string>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#55ffff;&quot;&gt;Robot Brachio&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#000000;&quot;&gt;Price:&lt;/span&gt;&lt;span style=&quot; font-size:16pt; font-weight:700; color:#ff0000;&quot;&gt; 50$&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnComplete">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>960</y>
+             <width>111</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnComplete {
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: 700 14pt &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnComplete:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Complete</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbListProduct">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>5</y>
+             <width>265</width>
+             <height>55</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Times New Roman</family>
+             <pointsize>16</pointsize>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+
+font: 700 italic 16pt &quot;Times New Roman&quot;;
+color:black;
+border-radius:25px;</string>
+           </property>
+           <property name="text">
+            <string>          PRODUCT LIST</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus1">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>320</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus1 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus1:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus2">
+           <property name="geometry">
+            <rect>
+             <x>410</x>
+             <y>320</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus2 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus2:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus3">
+           <property name="geometry">
+            <rect>
+             <x>660</x>
+             <y>320</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus3 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus3:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus4">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>620</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus4 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus4:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus5">
+           <property name="geometry">
+            <rect>
+             <x>410</x>
+             <y>620</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus5 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus5:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus6">
+           <property name="geometry">
+            <rect>
+             <x>660</x>
+             <y>620</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus6 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus6:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus7">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>920</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus7 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus7:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus8">
+           <property name="geometry">
+            <rect>
+             <x>410</x>
+             <y>920</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus8 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus8:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="btnMinus9">
+           <property name="geometry">
+            <rect>
+             <x>660</x>
+             <y>920</y>
+             <width>80</width>
+             <height>29</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#btnMinus9 {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:10px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnMinus9:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+           </property>
+           <property name="text">
+            <string>Minus</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount1">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>320</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount2">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>320</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount3">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>320</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount4">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>620</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount5">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>620</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount6">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>620</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount7">
+           <property name="geometry">
+            <rect>
+             <x>120</x>
+             <y>920</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount8">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>920</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lbAmount9">
+           <property name="geometry">
+            <rect>
+             <x>620</x>
+             <y>920</y>
+             <width>21</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 700 19pt &quot;Times New Roman&quot;;
+color:black;</string>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <zorder>btnAdd1</zorder>
+          <zorder>btnAdd2</zorder>
+          <zorder>btnAdd3</zorder>
+          <zorder>btnAdd6</zorder>
+          <zorder>btnAdd4</zorder>
+          <zorder>btnAdd5</zorder>
+          <zorder>btnAdd7</zorder>
+          <zorder>btnAdd8</zorder>
+          <zorder>btnAdd9</zorder>
+          <zorder>lblProduct9</zorder>
+          <zorder>txtProduct1</zorder>
+          <zorder>txtProduct2</zorder>
+          <zorder>txtProduct3</zorder>
+          <zorder>txtProduct5</zorder>
+          <zorder>txtProduct4</zorder>
+          <zorder>txtProduct7</zorder>
+          <zorder>txtProduct8</zorder>
+          <zorder>txtProduct9</zorder>
+          <zorder>txtProduct6</zorder>
+          <zorder>lblproduct2</zorder>
+          <zorder>btnComplete</zorder>
+          <zorder>lblProduct1</zorder>
+          <zorder>lblproduct3</zorder>
+          <zorder>lbListProduct</zorder>
+          <zorder>lblproduct4</zorder>
+          <zorder>lblproduct5</zorder>
+          <zorder>lblproduct6</zorder>
+          <zorder>lblproduct7</zorder>
+          <zorder>lblproduct8</zorder>
+          <zorder>lblproduct9</zorder>
+          <zorder>btnMinus1</zorder>
+          <zorder>btnMinus2</zorder>
+          <zorder>btnMinus3</zorder>
+          <zorder>btnMinus4</zorder>
+          <zorder>btnMinus5</zorder>
+          <zorder>btnMinus6</zorder>
+          <zorder>btnMinus7</zorder>
+          <zorder>btnMinus8</zorder>
+          <zorder>btnMinus9</zorder>
+          <zorder>lbAmount1</zorder>
+          <zorder>lbAmount2</zorder>
+          <zorder>lbAmount3</zorder>
+          <zorder>lbAmount4</zorder>
+          <zorder>lbAmount5</zorder>
+          <zorder>lbAmount6</zorder>
+          <zorder>lbAmount7</zorder>
+          <zorder>lbAmount8</zorder>
+          <zorder>lbAmount9</zorder>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="btnHome_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnHome_2 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnHome_2:hover {
+    background-color:#00007f;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>      Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logohome.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuProduct.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuCart.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenupayment.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuquit.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblLogoKT_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>70</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logoKT.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>lbBackground_1</zorder>
+     <zorder>scrollArea</zorder>
+     <zorder>btnQuit_1</zorder>
+     <zorder>btnProduct_1</zorder>
+     <zorder>btnCart_1</zorder>
+     <zorder>btnPayment_1</zorder>
+     <zorder>btnHome_2</zorder>
+     <zorder>label_15</zorder>
+     <zorder>label_16</zorder>
+     <zorder>label_17</zorder>
+     <zorder>label_18</zorder>
+     <zorder>label_19</zorder>
+     <zorder>lblLogoKT_2</zorder>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="lbBackground">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1010</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/img/index0.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnProduct_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnProduct_2 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnProduct_2:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Product</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCart_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnCart_2 {
+  background-color: #5c74ff;
+	color: white;
+	border-radius:25px;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>     Cart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPayment_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnPayment_2 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnPayment_2:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Payment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuit_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnQuit_2 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnQuit_2:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>  Quit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbCart">
+      <property name="geometry">
+       <rect>
+        <x>458</x>
+        <y>97</y>
+        <width>265</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>16</pointsize>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> border-radius:25px;
+background-color: rgb(255, 255, 255);
+color:black;
+font: 700 italic 16pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>          ITEMS IN CART</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="lsItemInCart">
+      <property name="geometry">
+       <rect>
+        <x>295</x>
+        <y>170</y>
+        <width>600</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(255, 255, 255);
+color:black;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbTotal">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>550</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #130F50;
+font: 700 20pt &quot;Times New Roman&quot;;
+color:white;
+border-radius:25px;</string>
+      </property>
+      <property name="text">
+       <string>  Total:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbTotalPrice">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>560</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red;
+font: 700 20pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnBack">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>620</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnBack {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnBack:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPay">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>620</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnPay {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnPay:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Pay</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnHome_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnHome_3 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnHome_3:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>      Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logohome.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuProduct.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuCart.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenupayment.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuquit.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblLogoKT_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>70</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logoKT.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblBackground">
+      <property name="geometry">
+       <rect>
+        <x>177</x>
+        <y>79</y>
+        <width>833</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(213, 164, 3);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnDel">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>620</y>
+        <width>93</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnDel {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnDel:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSort">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>130</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <pointsize>9</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnSort {
+	font: 9pt &quot;Segoe UI&quot;;
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnSort:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sort</string>
+      </property>
+     </widget>
+     <zorder>lbBackground</zorder>
+     <zorder>btnProduct_2</zorder>
+     <zorder>btnCart_2</zorder>
+     <zorder>btnPayment_2</zorder>
+     <zorder>btnQuit_2</zorder>
+     <zorder>btnHome_3</zorder>
+     <zorder>label_20</zorder>
+     <zorder>label_21</zorder>
+     <zorder>label_22</zorder>
+     <zorder>label_23</zorder>
+     <zorder>label_24</zorder>
+     <zorder>lblLogoKT_3</zorder>
+     <zorder>lblBackground</zorder>
+     <zorder>lbCart</zorder>
+     <zorder>lsItemInCart</zorder>
+     <zorder>lbTotal</zorder>
+     <zorder>btnBack</zorder>
+     <zorder>btnPay</zorder>
+     <zorder>lbTotalPrice</zorder>
+     <zorder>btnDel</zorder>
+     <zorder>btnSort</zorder>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QLabel" name="lbBackground_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1010</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Resource/img/index0.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbPayment_2">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>90</y>
+        <width>621</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>18</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(5, 135, 137);
+border-radius:25px;
+background-color: rgb(102, 84, 135);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnProduct_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnProduct_5 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnProduct_5:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Product</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPayment_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnPayment_5 {
+    background-color: #5c74ff;
+	color: white;
+	border-radius:25px;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>        Payment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCart_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnCart_5 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnCart_5:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>     Cart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuit_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnQuit_5 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnQuit_5:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>  Quit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbPhoneNumber">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>272</y>
+        <width>531</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>15</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black;
+font: 200 15pt &quot;Times New Roman&quot;;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string> Phone number:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbTotalBill_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>410</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>16</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;
+font: 16pt &quot;Times New Roman&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Total Bill:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbName_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>350</y>
+        <width>531</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>15</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black;
+font: 200 15pt &quot;Times New Roman&quot;;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string> Customer Name:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnConfirm_2">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>490</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnConfirm_2 {
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: 700 14pt &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnConfirm_2:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>CONFIRM</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbTotalBillPrice_2">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>409</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 700 20pt &quot;Times New Roman&quot;;
+Color:red;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnHome_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnHome_4 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnHome_4:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>      Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logohome.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuProduct.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuCart.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenupayment.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuquit.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblLogoKT_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>70</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logoKT.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>177</x>
+        <y>80</y>
+        <width>833</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(96, 0, 144);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>458</x>
+        <y>97</y>
+        <width>265</width>
+        <height>55</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 italic 16pt &quot;Times New Roman&quot;;
+color:black;
+ border-radius:25px;</string>
+      </property>
+      <property name="text">
+       <string>                   PAYMENT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbPhoneNumber_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>200</y>
+        <width>531</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>15</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color:black;
+font: 200 15pt &quot;Times New Roman&quot;;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string> Employee Name:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtNameEmployee">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>200</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:0px;
+font: 15pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Input employee's name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtPhone">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>280</y>
+        <width>331</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:0px;
+font: 15pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Input customer's phone number</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtNameCustomer">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>350</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:0px;
+font: 15pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);
+
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Input customer's name</string>
+      </property>
+     </widget>
+     <zorder>lbBackground_2</zorder>
+     <zorder>label_3</zorder>
+     <zorder>lbPayment_2</zorder>
+     <zorder>btnProduct_5</zorder>
+     <zorder>btnPayment_5</zorder>
+     <zorder>btnCart_5</zorder>
+     <zorder>btnQuit_5</zorder>
+     <zorder>btnHome_4</zorder>
+     <zorder>label_25</zorder>
+     <zorder>label_26</zorder>
+     <zorder>label_27</zorder>
+     <zorder>label_28</zorder>
+     <zorder>label_29</zorder>
+     <zorder>lblLogoKT_4</zorder>
+     <zorder>btnConfirm_2</zorder>
+     <zorder>lbName_2</zorder>
+     <zorder>lbPhoneNumber</zorder>
+     <zorder>lbTotalBill_2</zorder>
+     <zorder>lbTotalBillPrice_2</zorder>
+     <zorder>label</zorder>
+     <zorder>lbPhoneNumber_2</zorder>
+     <zorder>txtNameEmployee</zorder>
+     <zorder>txtPhone</zorder>
+     <zorder>txtNameCustomer</zorder>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="lbBackground_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1010</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/img/index0.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCart_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnCart_4 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnCart_4:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>     Cart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnQuit_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnQuit_4 {
+    background-color: #5c74ff;
+	color: white;
+	border-radius:25px;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>  Quit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPayment_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnPayment_4 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnPayment_4:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Payment</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnProduct_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnProduct_4 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnProduct_4:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>        Product</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbThanks">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>130</y>
+        <width>731</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Impact</family>
+        <pointsize>50</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 50pt &quot;Impact&quot;;
+color:white;</string>
+      </property>
+      <property name="text">
+       <string>Thank You Very Much</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnNew">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>630</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnNew {
+    background-color:white ;
+	border-radius:15px;
+	color:black;
+	font: 700 14pt &quot;Times New Roman&quot;;
+}
+
+QPushButton#btnNew:hover {
+    background-color:#315945;
+	color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnHome_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#btnHome_5 {
+    background-color: white;
+	color: black;
+	border-radius:25px;
+}
+
+QPushButton#btnHome_5:hover {
+    background-color:#5c74ff;
+	color:white;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>      Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logohome.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuProduct.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuCart.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>440</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenupayment.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>550</y>
+        <width>60</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logomenuquit.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblLogoKT_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>70</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/logo/logoKT.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>177</x>
+        <y>78</y>
+        <width>833</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Resource/img/bgQuit.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>lbBackground_4</zorder>
+     <zorder>btnCart_4</zorder>
+     <zorder>btnQuit_4</zorder>
+     <zorder>btnPayment_4</zorder>
+     <zorder>btnProduct_4</zorder>
+     <zorder>btnHome_5</zorder>
+     <zorder>label_30</zorder>
+     <zorder>label_31</zorder>
+     <zorder>label_32</zorder>
+     <zorder>label_33</zorder>
+     <zorder>label_34</zorder>
+     <zorder>lblLogoKT_5</zorder>
+     <zorder>label_2</zorder>
+     <zorder>lbThanks</zorder>
+     <zorder>btnNew</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1010</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>txtNameEmployee</tabstop>
+  <tabstop>txtPhone</tabstop>
+  <tabstop>txtNameCustomer</tabstop>
+  <tabstop>btnConfirm_2</tabstop>
+  <tabstop>btnHome_4</tabstop>
+  <tabstop>btnProduct_5</tabstop>
+  <tabstop>btnCart_5</tabstop>
+  <tabstop>btnPayment_5</tabstop>
+  <tabstop>btnQuit_5</tabstop>
+  <tabstop>btnAdd3</tabstop>
+  <tabstop>btnAdd6</tabstop>
+  <tabstop>btnAdd4</tabstop>
+  <tabstop>btnAdd5</tabstop>
+  <tabstop>btnAdd7</tabstop>
+  <tabstop>btnAdd8</tabstop>
+  <tabstop>btnAdd9</tabstop>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>txtProduct2</tabstop>
+  <tabstop>txtProduct3</tabstop>
+  <tabstop>txtProduct6</tabstop>
+  <tabstop>txtProduct5</tabstop>
+  <tabstop>txtProduct4</tabstop>
+  <tabstop>txtProduct7</tabstop>
+  <tabstop>txtProduct8</tabstop>
+  <tabstop>txtProduct9</tabstop>
+  <tabstop>btnComplete</tabstop>
+  <tabstop>btnMinus1</tabstop>
+  <tabstop>btnMinus2</tabstop>
+  <tabstop>btnMinus3</tabstop>
+  <tabstop>btnMinus4</tabstop>
+  <tabstop>btnMinus5</tabstop>
+  <tabstop>btnMinus6</tabstop>
+  <tabstop>btnMinus7</tabstop>
+  <tabstop>btnMinus8</tabstop>
+  <tabstop>btnMinus9</tabstop>
+  <tabstop>btnPayment_3</tabstop>
+  <tabstop>btnProduct_2</tabstop>
+  <tabstop>btnCart_2</tabstop>
+  <tabstop>btnPayment_2</tabstop>
+  <tabstop>btnQuit_2</tabstop>
+  <tabstop>lsItemInCart</tabstop>
+  <tabstop>btnBack</tabstop>
+  <tabstop>btnPay</tabstop>
+  <tabstop>btnHome_3</tabstop>
+  <tabstop>btnDel</tabstop>
+  <tabstop>btnSort</tabstop>
+  <tabstop>txtProduct1</tabstop>
+  <tabstop>btnHome_2</tabstop>
+  <tabstop>btnHome</tabstop>
+  <tabstop>btnAdd2</tabstop>
+  <tabstop>btnProduct_1</tabstop>
+  <tabstop>btnPayment_1</tabstop>
+  <tabstop>btnCart_3</tabstop>
+  <tabstop>btnQuit_1</tabstop>
+  <tabstop>btnCart_1</tabstop>
+  <tabstop>btnCart_4</tabstop>
+  <tabstop>btnQuit_4</tabstop>
+  <tabstop>btnPayment_4</tabstop>
+  <tabstop>btnProduct_4</tabstop>
+  <tabstop>btnNew</tabstop>
+  <tabstop>btnHome_5</tabstop>
+  <tabstop>btnAdd1</tabstop>
+  <tabstop>btnProduct_3</tabstop>
+  <tabstop>btnQuit_3</tabstop>
+ </tabstops>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnQuit_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>590</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>504</x>
+     <y>381</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

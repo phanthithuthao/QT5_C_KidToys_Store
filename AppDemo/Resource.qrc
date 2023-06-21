@@ -1,0 +1,70 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/icon/about.png</file>
+        <file>Resource/icon/add.png</file>
+        <file>Resource/icon/barcode.png</file>
+        <file>Resource/icon/barcode_scanner.png</file>
+        <file>Resource/icon/cancel.png</file>
+        <file>Resource/icon/cash_register.png</file>
+        <file>Resource/icon/category.png</file>
+        <file>Resource/icon/clear.png</file>
+        <file>Resource/icon/delivery.png</file>
+        <file>Resource/icon/dollar.png</file>
+        <file>Resource/icon/download.png</file>
+        <file>Resource/icon/edit.png</file>
+        <file>Resource/icon/english.png</file>
+        <file>Resource/icon/exit.png</file>
+        <file>Resource/icon/export.png</file>
+        <file>Resource/icon/file.png</file>
+        <file>Resource/icon/forgot_password.png</file>
+        <file>Resource/icon/help.png</file>
+        <file>Resource/icon/import.png</file>
+        <file>Resource/icon/language.png</file>
+        <file>Resource/icon/login.png</file>
+        <file>Resource/icon/manual.png</file>
+        <file>Resource/icon/nepali.png</file>
+        <file>Resource/icon/ok.png</file>
+        <file>Resource/icon/password.png</file>
+        <file>Resource/icon/pos.png</file>
+        <file>Resource/icon/print.png</file>
+        <file>Resource/icon/product.png</file>
+        <file>Resource/icon/receipt.png</file>
+        <file>Resource/icon/remove.png</file>
+        <file>Resource/icon/sales.png</file>
+        <file>Resource/icon/search.png</file>
+        <file>Resource/icon/store.png</file>
+        <file>Resource/icon/support.png</file>
+        <file>Resource/icon/trolley.png</file>
+        <file>Resource/icon/user_add.png</file>
+        <file>Resource/icon/user_edit.png</file>
+        <file>Resource/icon/user_menu.png</file>
+        <file>Resource/icon/user_ok.png</file>
+        <file>Resource/icon/user_remove.png</file>
+        <file>Resource/icon/users.png</file>
+        <file>Resource/icon/warehouse.png</file>
+        <file>Resource/logo/logoKT.png</file>
+        <file>Resource/logo/logomenuCart.png</file>
+        <file>Resource/logo/logomenuLogin.png</file>
+        <file>Resource/logo/logomenupayment.png</file>
+        <file>Resource/logo/logomenuProduct.png</file>
+        <file>Resource/logo/logomenuquit.png</file>
+        <file>Resource/logo/logoPw.png</file>
+        <file>Resource/logo/logoTextKT.png</file>
+        <file>Resource/logo/logoUndo.png</file>
+        <file>Resource/logo/logoUser.png</file>
+        <file>Resource/logo/logohome.png</file>
+        <file>Resource/product/Product 2.png</file>
+        <file>Resource/product/Product 3.png</file>
+        <file>Resource/product/Product 4.png</file>
+        <file>Resource/product/Product 5.png</file>
+        <file>Resource/product/Product 6.png</file>
+        <file>Resource/product/Product 7.png</file>
+        <file>Resource/product/Product 8.png</file>
+        <file>Resource/product/Product 9.png</file>
+        <file>Resource/product/Product1.png</file>
+        <file>Resource/img/BackgroundKT.png</file>
+        <file>Resource/img/bgQuit.png</file>
+        <file>Resource/img/index0.png</file>
+        <file>Resource/img/index1.png</file>
+    </qresource>
+</RCC>
